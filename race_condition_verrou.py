@@ -8,11 +8,11 @@ def compteur():
     global nb
     
     for _ in range(100):
-        with verrou:
+        with verrou: # verrou.acquire() 
             valeur_actuelle = nb
             time.sleep(0.0001)
             nb = valeur_actuelle + 1
-
+        # et verrou.release()
 
 if __name__ == "__main__":
     for _ in range(5):
