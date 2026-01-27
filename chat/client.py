@@ -156,7 +156,7 @@ if __name__ == "__main__":
     print_banner()
     
     # Paramètres de connexion
-    host = '127.0.0.1'
+    host = '192.168.1.104' # server address here
     port = 5555
     
     # Permettre de spécifier host et port en arguments
