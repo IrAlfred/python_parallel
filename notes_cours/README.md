@@ -2,13 +2,13 @@
 
 ## 📚 Description
 
-Ce dépôt contient le matériel pédagogique complet pour un cours de **60 heures** sur la programmation parallèle et distribuée en Python, destiné aux débutants ayant des bases superficielles de Python.
+Ce dépôt contient le matériel pédagogique complet pour sur la programmation parallèle et distribuée en Python, destiné aux débutants ayant des bases de Python.
 
 ## 🎯 Objectifs du cours
 
 À la fin de ce cours, les étudiants seront capables de :
 - Comprendre les concepts fondamentaux de la programmation parallèle et distribuée
-- Utiliser efficacement les modules `threading`, `multiprocessing` et `asyncio`
+- Utiliser efficacement les modules `threading` et `multiprocessing` 
 - Implémenter des solutions parallèles pour améliorer les performances
 - Créer des applications distribuées simples
 - Déboguer et optimiser du code parallèle
@@ -51,8 +51,6 @@ Le cours est organisé en **6 parties** comprenant **17 chapitres** :
 ```
 parallel_programming/
 ├── README.md                    # Ce fichier
-├── PLAN_COURS.md                # Plan détaillé du cours
-├── TEMPLATE_CHAPITRE.md         # Template pour créer de nouveaux chapitres
 ├── chapitres/                   # Tous les chapitres du cours
 │   ├── partie1_introduction/
 │   ├── partie2_threading/
@@ -82,7 +80,6 @@ Chaque chapitre suit une structure cohérente :
 
 1. Consultez le [PLAN_COURS.md](PLAN_COURS.md) pour avoir une vue d'ensemble
 2. Suivez les chapitres dans l'ordre proposé
-3. Utilisez le [TEMPLATE_CHAPITRE.md](TEMPLATE_CHAPITRE.md) pour créer de nouveaux contenus
 
 ## 🔧 Installation
 
@@ -114,10 +111,5 @@ pip install -r requirements.txt
 
 Ce cours est en développement. Les suggestions et améliorations sont les bienvenues !
 
-## 📄 Licence
-
-[À définir]
-
----
 
 **Bon apprentissage ! 🎉**
